@@ -1,0 +1,115 @@
+/*Importa a fonte Protest Guerrilla do Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Protest Guerrilla", sans-serif;
+    background-image: url(../imagens/fundo1.png); /* Foto de fundo da página */
+    background-size:cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    display: flex; /*Usa Flexbox para layout */
+    flex-direction: column; /*alinha os itens na vertical */
+    height: 100vh; /*preenche a altura total da viewport*/   
+}
+
+header {
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    color: white;     
+}
+
+header h1 {
+    font-size: 70px;
+    margin-bottom: 20px; /* Adiciona um espaçamento de 20px abaixo do h1 */
+    color: black
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px; /* espaçamento acima do parágrafo também */
+    color: black;
+}
+
+h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.4rem;
+}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.3em;
+    padding: 20px;
+    text-align: center;
+}
+
+#info p {
+
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+}
+
+
+input[type="text"] {
+    width: 20rem;
+    background-color: white; 
+    border-radius: 1.0rem;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #03733F; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+button:hover {
+    background-color: #D93B48;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    font-size: bolder;
+  }
+
+.city-info {
+    margin-top: 50px;
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    background: linear-gradient(to bottom, #e5ab68dd, #feb47bd7); /* Gradiente de laranja para pêssego */
+}
+
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #023a20;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
